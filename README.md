@@ -14,7 +14,7 @@ Feito isso, execute o comando abaixo para subir uma simulação de API para que 
 
 ### `npm run json-server`
 
-Feito isso, execute o comando abaixo em outro terminal para subir o app
+Execute o comando abaixo em outro terminal para subir o app
 
 ### `npm run start`
 
