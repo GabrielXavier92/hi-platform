@@ -8,7 +8,7 @@ const AccordionProvider: React.FC = ({ children }) => {
 
   const getData = useCallback(
     () => {
-      fetch('http://localhost:3000/0')
+      fetch(process.env.REACT_APP_API as string)
         .then((res) => res.json())
         .then((result: Data) => {
           setData(result);
