@@ -1,0 +1,16 @@
+.accordion__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 55px;
+}
+
+.accordion__content:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+input {
+  margin-right: 10px;
+}
